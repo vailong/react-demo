@@ -27,6 +27,8 @@ class App extends React.Component{
         )   
     }
     componentDidMount(){
+
+        
         //从页面的localStorage中拿到城市名
         var cityName = getItem(USERINFO_CITYNAME);//从localStorage中拿数据
         if(cityName == null) cityName = '深圳';
